@@ -29,7 +29,6 @@ class PluginFoo extends PolkawalletPlugin{
   // 3.3
   @override
   List<NetworkParams> get nodeList {
-    
     const node_list = [
       {
         'name': "Selendra",
